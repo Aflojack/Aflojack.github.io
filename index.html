@@ -8,7 +8,82 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>*Work in progress!*</h1>
-        <script src="index.js"></script>
+        <header>
+            <h1>Github Portfolio Project</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#work">Work Experience</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+            
+        </nav>
+        <main>
+            <article id="about">
+                <h2><a href="#" onclick="showOrHide('about-content')">About me [show/hide]</a></h2>
+                <article id="about-content">
+                    <img id="profile" src="img/profile-picture.webp" alt="My profile picture">
+                    <p>Hello! My name is Balázs Medvegy! I&apos;m a young programmer currently pursuing a degree in Computer Science. Ever since I wrote my first "Hello, World!" program, I&apos;ve been fascinated by the power of coding and its ability to bring ideas to life.</p>
+                    <p>I specialize in C# and have a strong passion for web development and my main goal is to learn ASP.NET. Because whether it&apos;s designing interactive websites or building dynamic web applications, I enjoy creating seamless and user-friendly digital experiences. I&apos;m always exploring new frameworks, tools, and best practices to enhance my skills and stay ahead in the ever-evolving world of web technology.</p>
+                    <p>In addition to web development, I have a hobbyist interest in game development. I enjoy experimenting with game engines, designing small indie projects, and exploring creative ways to bring game concepts to life. While web development remains my primary focus, game development serves as a fun and creative outlet for me.</p>
+                    <p>When I&apos;m not coding, you&apos;ll probably find me playing video games, brainstorming new game ideas, or learning about the latest advancements in web technology.</p>
+                    <p>My goal is to grow as a developer and create innovative, enjoyable, and user-friendly applications.</p>
+                </article>
+            </article>
+            <article id="education">
+                <h2><a href="#" onclick="showOrHide('education-content')">Education [show/hide]</a></h2>
+                <article id="education-content">
+                    <table>
+                        <tr>
+                            <th>Year</th><th>Name</th><th>Subject</th>
+                        </tr>
+                        <tr>
+                            <td>Active</td><td>University of Szeged</td><td>Computer Science</td>
+                        </tr>
+                    </table>
+                </article>
+            </article>
+            <article id="work">
+                <h2><a href="#" onclick="showOrHide('work-content')">Work Experience [show/hide]</a></h2>
+                <article id="work-content">
+                    <div>SZTE TTIK Informatikai Intézet<br>
+                    2024.09.02 - 2024.12.06</div>
+                    <div>Internship<br></div>
+                </article>
+            </article>
+            <article id="skills">
+                <h2><a href="#" onclick="showOrHide('skills-content')">Skills [show/hide]</a></h2>
+                <article id="skills-content">
+                    <h4>Programming skills</h4>
+                    <ul>
+                        <li>C#</li>
+                        <li>Java (Springboot)</li>
+                        <li>Python</li>
+                        <li>PHP (Moodle)</li>
+                        <li>Version Control (Git, Github, Gitlab)</li>
+                        <li>SQL database (MySQL)</li>
+                    </ul>
+                    <h4>Additional skills</h4>
+                    <ul>
+                        <li>Understanding of Object-oriented programming</li>
+                        <li>Understanding of software development principles</li>
+                    </ul>
+                </article>
+            </article>
+        </main>
+        <footer>
+            <h4>This portfolio site was built using HTML5, CSS, and JavaScript.</h4>
+        </footer>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
